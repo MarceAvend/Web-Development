@@ -112,7 +112,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position:absolute;
-	background-image: url(./img/Disney.png);
+	background-image: url(./static/Disney.png);
     background-size: auto;
 	width: 200vw;
 	height: 100vh;
@@ -218,7 +218,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/Disney.png);
+	background-image: url(./static/Disney.png);
     background-size: auto;
 	background-position:  center;
 	position: relative;
@@ -292,7 +292,7 @@ p {
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
-    background-image: url(./img/Cinderella%20Castle.jpg);
+    background-image: url(./static/Cinderella%20Castle.jpg);
     background-size:cover;
 	background-position: left;
 }
@@ -328,7 +328,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(Img/Accomodation%201.jpg)
+	background-image: url(static/Accomodation%201.jpg)
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -357,7 +357,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
-    background-image: url(./img/The%20Grand.jpg);
+    background-image: url(./static/The%20Grand.jpg);
 	background-size: auto;
 }
 #projects .projects-header h1 {
@@ -420,7 +420,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
-    background-image: url(./img/About us.jpg);
+    background-image: url(./static/About us.jpg);
     background-size:auto;
 	background-position:left;
     
@@ -471,7 +471,7 @@ p {
 	max-width: 1000px;
 	margin: 0 auto;
 	width: 90%;
-    background-image: ;background-image: url(./img/The%20Grand.jpg);
+    background-image: ;background-image: url(./static/The%20Grand.jpg);
     background-size:contain;
 }
 #contact .contact-items {
