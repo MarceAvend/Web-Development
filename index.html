@@ -10,6 +10,8 @@
     <meta name="author" content="Marcela Avendaño, BENJAMIN VERMEULEN, LAWRENCE PREVILLE, micheal halaka">
     <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <!---------------------------------------------------------- page Body ------------------------------------------------------->
@@ -18,21 +20,27 @@
 
     <!--------------------------------------------------------- page header ------------------------------------------------------>
     <header>
-        <div>
-            <h1>
-                Dream Park
-            </h1>
-            <nav am-layout="horizontal">
-                <a href="#">Restaurants</a>
-                <a href="#">Accomodations</a>
-                <a href="beforecoming.html">Before Visiting</a>
-                <a href="#">Tickets and packages</a>
-            </nav>
-            <img src="" alt="hotel room 1">
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <h1>
+                    Dream Park
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Tickets and packages <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="beforecoming.html">Before coming</a>
+                <a class="nav-item nav-link" href="#">Accomodations</a>
+                <a class="nav-item nav-link disabled" href="#">Restaurants</a>
+              </div>
+            </div>
+          </nav>
     </header>
     <!---------------------------------------------------- Park ticket section ---------------------------------------------------->
-    <div>
+    <div class="section-N1-tickets">
         <div>
             <h2>
                 Park Tickets
@@ -42,7 +50,7 @@
             </p>
         </div>
 
-        <div>
+        <div class="Iner-Section-N1-tickets">
             <p>Can’t wait for your trip? Important information to know… Due to high demand, our Parks are full on many
                 dates. To enter our Parks, you must either have a dated ticket or register your visit date in
                 advance if you have an undated Ticket or Annual Pass. You can check back regularly to see availability
@@ -50,32 +58,46 @@
                 wait to welcome you!
             </p>
         </div>
-
-        <div>
+        <div class="container">
             <h3>
                 Select your type of tickets
             </h3>
-            <div>
-                <h4>Dated for 1-4 days</h4>
-                <p>1 or 2 Parks</p>
-                <p>Best value per day</p>
-                <p>Cancel for free
-                    until 3 days before</p>
-            </div>
-            <div>
-                <h4>1 - Day undated</h4>
-                <p>1 or 2 Parks</p>
-                <p>Valid 1 year</p>
-                <p>The Ideal gift</p>
-            </div>
-            <div>
-                <h4>Dated 1- Day with shuttle</h4>
-                <p>1 or 2 Parks</p>
-                <p>Cancel for free
-                    until 3 days before</p>
-                <p>Includes
-                    transportation
-                    to the park</p>
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4>Dated for 1-4 days</h4>
+                        <p>1 or 2 Parks</p>
+                        <p>Best value per day</p>
+                        <p>Cancel for free
+                            until 3 days before</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4>1 - Day undated</h4>
+                        <p>1 or 2 Parks</p>
+                        <p>Valid 1 year</p>
+                        <p>The Ideal gift</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4>Dated 1- Day with shuttle</h4>
+                        <p>1 or 2 Parks</p>
+                        <p>Cancel for free
+                            until 3 days before</p>
+                        <p>Includes
+                            transportation
+                            to the park</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
