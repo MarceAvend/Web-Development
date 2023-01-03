@@ -9,121 +9,160 @@
         <meta name="author" content="Marcela Avendaño, BENJAMIN VERMEULEN, LAWRENCE PREVILLE, micheal halaka">
         <meta http-equiv="refresh" content="30">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="My.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        
+       
     </head>
 
     <!---Page Body-->
 <body>
-    <header>
-        <div>
+   
           
-            <nav am-layout="horizontal">
-                <a href="#">Restaurants</a>
-                <a href="#">Accomodations</a>
-                <a href="beforecoming.html">Before coming</a>
-                <a href="#">Tickets and packages</a>
+            <nav>
+                <div class="logo">
+                    <p>Dream Park</p>
+                </div>
+                <ul>
+                    <li><a href="index.html">Tickets and packages</a></li>
+                    <li><a href="beforecoming.html">Before coming</a></li>
+                    <li><a href="restaurants.html">Restaurants & Accomodation</a></li>
+                   
+                    
+                 </ul>
             </nav>
-            <img src="" alt="img">
+
+            <div class="content-items">
+                <img src="static/Main Image.jpg" alt="Main image">
+                <div class="img-text">
+                    <p>Dream Park where Dreams Come True</p>
+                </div>
+             </div>
+       
+        
             
-        </div>
+        
         <div>
-        <h1>
+        <h1 class ="Prep">
             Preparations & Recommendations
         </h1>
-        <nav am-layout="horizontal">
+       <!---<nav am-layout="horizontal">
             <a href="#">How to get here</a>
             <a href="#">Mobile App</a>
             <a href="#">Recommendations</a>
             <a href="#">Faqs</a>
             
-        </nav>
-    </div>
-    </header>
-    <!--Header-->
-    <div>
-        <div>
+        </nav> -->
+        </div>
+   
+    <!--How to get here-->
+    <div class="transport"> 
+        <div class="Heading">
             <h2>How to get here</h2>
-            <h4>Wheather visting by air, land or sea,Dream park is reachable to all even through ones dreams.</h4>
-                <a href="#" img src ="" alt ="img">Air</a>
-                <a href="#" img src ="" alt ="img">Land</a>
-                <a href="#" img src ="" alt ="img">Sea</a>
         </div>
-        <div>
-            <h2>Mobile App</h2>
-            <p>Experience dreams through the mobile app</p>
-            <img src="" alt="img"> <img src="" alt="img">
+            <div class="enclosure">
+              <div class="formation">
+                <i class="fa-solid fa-plane"></i>
+              <h4>Air</h5>  
+              <div class="pra">
+                <p class = "point">Whether visting by air, land or sea, Dream park is reachable to all even through ones dreams.</p>
+                <p style="text-align:right;">
+                <a class="button" href="#">Buy Ticket</a>
+                
+            </p>
+            </div>
+              </div>
+              <div class="formation">
+                <i class="fa-solid fa-ship"></i>
+              <h4>Sea</h5>  
+              <div class="pra">
+                <p class = "point">Whether visting by air, land or sea, Dream park is reachable to all even through ones dreams.</p>
+                <p style="text-align:right;">
+                <a class="button" href="#">Buy Ticket</a>
+                
+            </p>
+            </div>
+              </div>
+              <div class="formation">
+                <i class="fa-solid fa-car"></i>
+              <h4>Land</h5>  
+              <div class="pra">
+                <p class = "point">Whether visting by air, land or sea, Dream park is reachable to all even through ones dreams.</p>
+                <p style="text-align:right;">
+                <a class="button" href="#">Buy Ticket</a>
+                
+            </p>
+            </div>
+            </div>
         </div>
-        <div>
+    </div>
+             
+         
+                
+        
+        
+            
 
-            <div>
-                <h2>Recommendations</h2>  
-            </div> 
+            
+        
+       
+
+           
 
           
+        <div class="box">
+            <p class="heading">FAQS</p>
+            <div class="faqs">
+                <details>
+                    <summary>
+                        Are Masks required?
+                    </summary>
+                    <p class ="text">No, as of September 2022 masks are no longer a requirement.</p>
+                </details>
+                <details>
+                    <summary>
+                        Is there an age requirement to enter the park?
+                    </summary>
+                    <p class ="text">There is no age requiremnet, however children under the age of 12 must be accompained by someone 17 or older.</p>
+                </details>
+                <details>
+                    <summary>
+                        Are pets allowed?
+                    </summary>
+                    <p class ="text">Due to health and safety concenrs of guests pet are not allowed.</p>
+                </details>
+            </div>
+        </div>
+
+
+
         
 
             
-            <h2>Faqs</h2>
-            <div>
-                <h4>Are Masks required?</h4>
-                <div>
-                    <p>No, as of September 2022 masks are no longer a requirement.</p>
-                </div>
-
-                <h4>Is there an age requirement to enter the park?</h4>
-                <div>
-<<<<<<< Updated upstream
-                    <p>There is no age requiremnet, however children under the age of 12 must be accompained by someone 17 or older.</p>
-=======
-                    <p>No.However, children under the age of 12 must be accompained by someone 17 or older.</p>
->>>>>>> Stashed changes
-                </div>
-
-                <h4>Are there any group discounts?</h4>
-                <div>
-                    <p>Groups of 10-20 are eligible for a discount.</p>
-                </div>
-
-                <h4>Are pets allowed?</h4>
-                <div>
-                    <p>Due to health and safety concenrs of guests pet are not allowed.</p>
-                </div>
             
-                
-                    
-        </div>
        
 
-    </div>
+   
      <!---------------------------------------------------- footer section ---------------------------------------------------->
+     
      <footer>
-        <div>
-            <div>
+        <div class="footer-cont">
+            <h3>Company team 80</h3>
+            <p>We provide the best service of attractions for the whole family</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
 
-                <h3>Services</h3>
-                <ul>
-                    <li><a href="#">accommodation</a></li>
-                    <li><a href="#">park tickets</a></li>
-                    <li><a href="#">restaurants</a></li>
-                </ul>
-
-            </div>
-            <div class="row">
-                <div>
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#">work team</a></li>
-                        <li><a href="#">ticket offers</a></li>
-                        <li><a href="#">before coming to visit us</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Company team 80</h3>
-                    <p>We provide the best service of attractions for the whole family</p>
-                </div>
-            </div>
-            <p class="copyright">company team 80 © 2022</p>
         </div>
-    </footer>
+        <div class="bottom">
+            <p>Copyright company team 80 © 2022 designed by <span>Lawrence Preville, Marcela Avendaño, Benjamin Vermulen</span></p>
+        </div>
+     </footer>
+
+     
+    
 
 </body>
 </html>
