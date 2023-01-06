@@ -1,17 +1,96 @@
 .navbar {
-    background-color: #e3f2fd;
+	background-color: #e3f2fd;
 }
 
 .section-N1-tickets {
-    background-color: rgb(239,239,239);
+	background-color: rgb(239, 239, 239);
 }
 
 .Iner-Section-N1-tickets {
-    background-color: rgb(247,247,247);
-    border-color: rgb(40,42,53);
-    border-style: solid;
-    border-radius: 5px;
+	background-color: rgb(247, 247, 247);
+	border-color: rgb(40, 42, 53);
+	border-style: solid;
+	border-radius: 5px;
 }
 
+.text-carrusel h1 {
+	color: black;
+	font-weight: bold;
+	-webkit-text-stroke: 0.111rem white;
+	user-select: none;
+}
+
+.text-carrusel span {
+	color: black;
+	background-color: white;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.creators-section {
+	background-color: #EBEDF0 !important;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
+footer section{
+	background-color: #e3f2fd !important;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
+#linkedin-btn {
+	background: #0e76a8;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #084461;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+#linkedin-btn:visited {
+	color: #fff;
+}
+#linkedin-btn:hover {
+	background: #084461;
+	color: #fff;
+}
+
+#github-btn {
+	background: #0d0e0e;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #084461;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
+#github-btn:visited {
+	color: #fff;
+}
+#github-btn:hover {
+	background: #084461;
+	color: #fff;
+}
+
+.copyright {
+	background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* -------------- */
 
 
