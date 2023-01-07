@@ -91,6 +91,14 @@ footer section{
     color: white;
 }
 
+
+.button-box{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 10%;
+}
 /* -------------- */
 
 
